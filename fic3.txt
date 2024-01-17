@@ -1,0 +1,17 @@
+mkdir Rep1
+mkdir Rep2
+cd Rep1
+touch file11
+touch file12
+mkdir Rep11
+cd Rep11
+touch file111
+cd 
+cp Rep1/Rep11 Rep2
+print
+cd
+cd Rep1
+rm file11
+rm file12
+
+print
